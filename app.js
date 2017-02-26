@@ -23,9 +23,11 @@ function createAllProducts() {
   console.log(productsArray);
 }
 
+// picks a random Num from productImages Array
 function randomNum() {
   return Math.floor(Math.random() * productsArray.length);
 }
+
 
 function drawImageIntoHolder(randomIndex) {
   var product = productsArray[randomIndex];
@@ -38,7 +40,7 @@ function drawImageIntoHolder(randomIndex) {
   holderEL.src = product.path;
   imagesHolder.appendChild(holderEL);
 }
-//Creates three random images
+//Generates three random images
 function createThreeImages() {
   for (var i = 0; i < 3; i++) {
     var randomIndex = randomNum();
@@ -49,5 +51,6 @@ function createThreeImages() {
 
 // var tracker {
 // }
+//Call functions
 createAllProducts();
 createThreeImages();

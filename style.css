@@ -1,5 +1,5 @@
 background {
-
+  color: #21adba;
 }
 
 h1 {
@@ -15,6 +15,7 @@ button {
   font-size: 1em;
   padding: .5em;
   margin: 1.5em auto;
+  border-style: outset;
 }
 
 body {
@@ -71,7 +72,6 @@ li {
   display: block;
   font-family: Helvetica, sans-serif;
   margin: 25px;
-
 }
 
 h2 {
